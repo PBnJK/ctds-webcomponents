@@ -1,0 +1,149 @@
+/* Header */
+#tit-header {
+	margin: 0;
+	width: 100%;
+	height: 10.55%;
+}
+
+/* Retângulo no fundo do header */
+#tit-fundo {
+	margin: 0;
+	background-color: #101720;
+	width: 100%;
+	height: 50%;
+}
+
+/* Oval (elipse?) por trás do texto no header*/
+#tit-fundo2 {
+	position: absolute;
+	top: 0;
+
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+	text-align: center;
+
+	background-color: #101720;
+	border-radius: 2em;
+	width: 50%;
+	height: 8%;
+}
+
+/* Texto do header*/
+#tit-nome {
+	margin-top: 0;
+    
+	color: white;
+    
+	text-align: center;
+	font-family: 'Judson';
+	font-size: 30pt;
+}
+
+/* Texto principal */
+#tagline {
+    margin-top: 5%;
+    
+    color: white;
+    
+    text-align: center;
+    font-family: 'Judson';
+    font-size: 30pt;
+}
+
+/* Destaque na tagline */
+#tagline em {
+    color: #B1B4FB;
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    
+    font-family: 'Inria Sans';
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    
+    height: 50%;
+}
+
+#btn-criar {
+    margin: 0 auto;
+    
+    background-color: #051015;
+    border-color: #020C10;
+    color: white;
+    
+    text-align: center;
+    font-family: 'Inria Sans';
+    font-size: 24pt;
+    
+    width: 16em;
+    height: 64px;
+    
+    border-radius: 2em;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#btn-criar:hover {
+   background-color: #040812;
+   border-color: #010908;
+   
+   cursor: pointer;
+}
+
+#silly {
+    color: white;
+    font-family: 'Inria Sans';
+    
+    margin-bottom: 2px;
+}
+
+#btn-logar {
+    margin: 0 auto;
+    
+    background-color: #7276D0;
+    color: white;
+    
+    text-align: center;
+    font-family: 'Inria Sans';
+    font-size: 22pt;
+    
+    width: 25%;
+    height: 56px;
+    
+    border-radius: 2em;
+    border-style: none;
+}
+
+#btn-logar:hover {
+    background-color: #5256B0;
+    cursor: pointer;
+}
+
+#exclam {
+    position: absolute;
+    
+    width: 2%;
+    
+    left: 66%;
+    top: 48%;
+    
+    transform: rotate(15deg);
+}
+
+#no-thanks {
+    color: white;
+    font-family: 'Inria Sans';
+
+    margin-top: 52px;
+
+    font-size: 12pt;
+    font-style: italic;
+}
