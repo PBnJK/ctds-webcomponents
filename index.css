@@ -1,8 +1,8 @@
 /* Header */
-#tit-header {
+header {
 	margin: 0;
 	width: 100%;
-	height: 10.55%;
+	height: 70px;
 }
 
 /* Retângulo no fundo do header */
@@ -10,7 +10,7 @@
 	margin: 0;
 	background-color: #101720;
 	width: 100%;
-	height: 50%;
+	height: 35px;
 }
 
 /* Oval (elipse?) por trás do texto no header*/
@@ -28,7 +28,7 @@
 	background-color: #101720;
 	border-radius: 2em;
 	width: 50%;
-	height: 8%;
+	height: 50px;
 }
 
 /* Texto do header*/
@@ -132,8 +132,8 @@
     
     width: 2%;
     
-    left: 66%;
-    top: 48%;
+    left: 890px;
+    top: 310px;
     
     transform: rotate(15deg);
 }

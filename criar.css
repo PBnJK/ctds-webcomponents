@@ -1,0 +1,85 @@
+/* Header */
+header {
+	margin: 0;
+	width: 100%;
+	height: 23.8%;
+}
+
+/* Retângulo no fundo do header */
+#header-bg {
+	margin: 0;
+	background-color: #101720;
+	width: 100%;
+	height: 125px;
+
+	text-align: center;
+}
+
+/* Fundo da foto de perfil */
+#prof-pic-bg {
+	top: 0;
+
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+	width: 216px;
+	height: 206px;
+
+	border-radius: 50%;
+	background-color: #101720;
+}
+
+/* Foto de perfil */
+#prof-pic {
+	width: 192px;
+}
+
+form {
+	margin: 80px 0 0 35%;
+}
+
+.input-divs {
+	margin: 0 auto;
+}
+
+/* Labels das caixas de input */
+.input-label {
+	display: block;
+
+	font-family: 'Inria Sans';
+	font-size: 16pt;
+
+	color: white;
+
+	margin-top: 16px;
+}
+
+/* Caixas de input */
+.input-generic {
+	display: inline-block;
+
+	font-family: 'Inria Sans';
+	font-size: 18pt;
+
+	background-color: #d0d0d9;
+
+	border-style: none;
+	border-radius: 16px;
+
+	margin-top: 8px;
+
+	height: 40px;
+	width: 400px;
+
+    padding-left: 8px;
+	padding-right: 8px;
+}
+
+.input-generic::placeholder {
+	color: #1e1e1e7f;
+
+	font-style: italic;
+	font-weight: lighter;
+}
