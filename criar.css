@@ -1,8 +1,9 @@
 /* Header */
 header {
-	margin: 0;
+	margin: 0 auto;
+
 	width: 100%;
-	height: 23.8%;
+	height: 210px;
 }
 
 /* Retângulo no fundo do header */
@@ -37,11 +38,21 @@ header {
 }
 
 form {
-	margin: 80px 0 0 35%;
+	flex-flow: column nowrap;
+	place-items: center;
+
+	gap: 2em;
+
+	margin-block: 1em;
+	margin-inline: auto;
+
+	width: clamp(20em, 60vw, 1000px);
 }
 
 .input-divs {
 	margin: 0 auto;
+
+	width: 300px;
 }
 
 /* Labels das caixas de input */
@@ -49,7 +60,7 @@ form {
 	display: block;
 
 	font-family: 'Inria Sans';
-	font-size: 16pt;
+	font-size: 12pt;
 
 	color: white;
 
@@ -61,7 +72,7 @@ form {
 	display: inline-block;
 
 	font-family: 'Inria Sans';
-	font-size: 18pt;
+	font-size: 14pt;
 
 	background-color: #d0d0d9;
 
@@ -70,8 +81,8 @@ form {
 
 	margin-top: 8px;
 
-	height: 40px;
-	width: 400px;
+	height: 30px;
+	width: 300px;
 
     padding-left: 8px;
 	padding-right: 8px;
@@ -82,4 +93,42 @@ form {
 
 	font-style: italic;
 	font-weight: lighter;
+}
+
+.input-generic:autofill {
+	font-family: 'Inria Sans';
+	font-size: 14pt;
+}
+
+.input-generic:-webkit-autofill {
+	font-family: 'Inria Sans';
+	font-size: 14pt;
+}
+
+.input-generic:focus {
+	outline: dashed 2px;
+	outline-color: #5e5e5e;
+}
+
+#inp-confirmar {
+	background-color: #34e280;
+	color: #acffc8;
+
+	font-family: 'Inria Sans';
+	font-size: 18pt;
+
+	border-style: none;
+
+	width: 200px;
+	height: 50px;
+
+	margin-top: 30px;
+	margin-left: 60px;
+
+	border-radius: 16px;
+}
+
+#inp-confirmar:hover {
+	background-color: #24b270;
+	color: #8cdfa8;
 }

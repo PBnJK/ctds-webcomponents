@@ -25,7 +25,7 @@
 		</div>
 	</header>
 
-	<form>
+	<form method="post">
 		<div class="input-divs">
 			<label for="inp-b-nam" class="input-label">Nome de usuário</label>
 			<input type="text" id="inp-b-name" class="input-generic" placeholder="Seu nome aqui"/>
@@ -36,11 +36,15 @@
 		</div>
 		<div class="input-divs">
 			<label for="inp-b-senha" class="input-label">Senha</label>
-			<input type="text" id="inp-b-senha" class="input-generic" placeholder="Sua senha"/>
+			<input type="password" id="inp-b-senha" class="input-generic" placeholder="Sua senha"/>
 		</div>
 		<div class="input-divs">
 			<label for="inp-b-c-senha" class="input-label">Confirme a senha</label>
-			<input type="email" id="inp-b-c-senha" class="input-generic" placeholder="Sua senha, de novo"/>
+			<input type="password" id="inp-b-c-senha" class="input-generic" placeholder="Sua senha, de novo"/>
+		</div>
+
+		<div class="input-divs">
+			<input type="submit" id="inp-confirmar" value="Confirmar">
 		</div>
 	</form>
 </body>
