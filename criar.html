@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="global.css" rel="stylesheet">
-	<link href="criar.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+	<link href="css/criar.css"  rel="stylesheet">
 
 	<!-- Coisas de fonte -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,9 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	
+	<!-- JS -->
+	<script src="scripts/criar.js"></script>
+
 	<title>WebComponents</title>
 </head>
 <body>
@@ -27,20 +30,37 @@
 
 	<form method="post">
 		<div class="input-divs">
-			<label for="inp-b-nam" class="input-label">Nome de usuário</label>
-			<input type="text" id="inp-b-name" class="input-generic" placeholder="Seu nome aqui"/>
+			<label for="inp-b-name" class="input-label">Nome de usuário</label>
+			<input type="text"
+				   id="inp-b-name" class="input-generic" 
+				   placeholder="Seu nome aqui" required/>
 		</div>
+
 		<div class="input-divs">
 			<label for="inp-b-email" class="input-label">E-mail</label>
-			<input type="email" id="inp-b-email" class="input-generic" placeholder="exemplo@exemplo.com"/>
+			<input type="email"
+				   id="inp-b-email" class="input-generic"
+				   placeholder="exemplo@exemplo.com" required/>
 		</div>
+
 		<div class="input-divs">
 			<label for="inp-b-senha" class="input-label">Senha</label>
-			<input type="password" id="inp-b-senha" class="input-generic" placeholder="Sua senha"/>
+			<div style="display: inline-block;">
+				<input type="password"
+				   	   id="inp-b-senha" class="input-generic"
+				       placeholder="Sua senha" required/>
+				<img src="assets/eye-solid.svg" id="eye-pwd-1" class="pwd-eye">
+			</div>
 		</div>
+
 		<div class="input-divs">
 			<label for="inp-b-c-senha" class="input-label">Confirme a senha</label>
-			<input type="password" id="inp-b-c-senha" class="input-generic" placeholder="Sua senha, de novo"/>
+			<div style="display: inline-block;">
+				<input type="password" minlength="8"
+				   	   id="inp-b-c-senha" class="input-generic"
+				       placeholder="Sua senha, de novo" required/>
+				<img src="assets/eye-solid.svg" id="eye-pwd-2" class="pwd-eye">
+			</div>
 		</div>
 
 		<div class="input-divs">
