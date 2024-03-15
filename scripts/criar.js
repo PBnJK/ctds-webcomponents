@@ -3,18 +3,20 @@
  * @author Pedro B.
  */
 
-
 /**
  * Valida a senha do usuário
  */
 function validarCSenha() {
-	if( SENHA_INPUT.value !== CSENHA_INPUT.value ) {
-		CSENHA_INPUT.setCustomValidity("As senhas precisam ser iguais");
+	const S_INPUT  = document.getElementById("inp-b-senha");
+	const CS_INPUT = document.getElementById("inp-b-c-senha");
+
+	if( S_INPUT.value !== CS_INPUT.value ) {
+		CS_INPUT.setCustomValidity("As senhas precisam ser iguais");
 	} else {
-		CSENHA_INPUT.setCustomValidity("");
+		CS_INPUT.setCustomValidity("");
 	}
 	
-	CSENHA_INPUT.reportValidity();
+	CS_INPUT.reportValidity();
 }
 
 /**

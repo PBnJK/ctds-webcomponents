@@ -24,11 +24,12 @@
 		<div id="header-bg">
 			<div id="prof-pic-bg">
 				<img src="assets/ppic.svg" id="prof-pic">
+				<img 
 			</div>
 		</div>
 	</header>
 
-	<form method="post">
+	<form>
 		<div class="input-divs">
 			<label for="inp-b-name" class="input-label">Nome de usuário</label>
 			<input type="text"
@@ -46,7 +47,7 @@
 		<div class="input-divs">
 			<label for="inp-b-senha" class="input-label">Senha</label>
 			<div style="display: inline-block;">
-				<input type="password"
+				<input type="password" minlength="8"
 				   	   id="inp-b-senha" class="input-generic"
 				       placeholder="Sua senha" required/>
 				<img src="assets/eye-solid.svg" id="eye-pwd-1" class="pwd-eye">
