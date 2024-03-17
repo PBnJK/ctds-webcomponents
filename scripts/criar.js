@@ -4,6 +4,31 @@
  */
 
 /**
+ * Troca a imagem de perfil do usuário
+ */
+function trocarPerfil() {
+    const INPUT = document.getElementById('file-input');
+
+    INPUT.onchange = e => { 
+        const IMG = new Image();
+        
+        IMG.onload = function() {
+            if(this.width <= 256 || this.height <= 256) {
+                document.getElementById('prof-pic').setAttribute('image-rendering', 'pixelated');
+            } else {
+                document.getElementById('prof-pic').setAttribute('image-rendering', 'auto');
+            }
+
+        }
+
+        IMG.src = URL.createObjectURL(INPUT.files[0]);
+        document.getElementById('prof-pic').src = IMG.src;
+    }
+
+    INPUT.click();
+}
+
+/**
  * Valida a senha do usuário
  */
 function validarCSenha() {

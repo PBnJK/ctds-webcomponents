@@ -26,15 +26,34 @@ header {
 	right: 0;
 
 	width: 216px;
-	height: 206px;
+	height: 216px;
 
 	border-radius: 50%;
 	background-color: #101720;
+    
+    overflow: hidden;
 }
 
 /* Foto de perfil */
 #prof-pic {
-	width: 192px;
+	width: 216px;
+	height: 216px;
+    
+    image-rendering: pixelated;
+}
+
+#prof-change {
+    position: absolute;
+    
+    background: none;
+    border: none;
+    
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+#prof-change:hover > #prof-change-svg {
+    filter: brightness(80%);
 }
 
 form {

@@ -21,10 +21,13 @@
 </head>
 <body>
 	<header>
-		<div id="header-bg">
+		<div id="header-bg">            
 			<div id="prof-pic-bg">
+                <button id="prof-change" onclick="trocarPerfil()">
+                    <img src="assets/change-profile.svg" id="prof-change-svg">
+                </button>
+                
 				<img src="assets/ppic.svg" id="prof-pic">
-				<img 
 			</div>
 		</div>
 	</header>
@@ -68,5 +71,7 @@
 			<input type="submit" id="inp-confirmar" value="Confirmar">
 		</div>
 	</form>
+    
+    <input id="file-input" type="file" name="name" style="display: none;" />
 </body>
 </html>
