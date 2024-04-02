@@ -11,49 +11,20 @@ header {
 	margin: 0;
 	background-color: #101720;
 	width: 100%;
-	height: 125px;
+	height: 250px;
 
 	text-align: center;
 }
 
-/* Fundo da foto de perfil */
-#prof-pic-bg {
-	top: 0;
+#ola {
+	margin: 0;
+	font-family: 'Inria Sans';
+	color: white;
 
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+	height: 250px;
+	line-height: 250px;
 
-	width: 216px;
-	height: 216px;
-
-	border-radius: 50%;
-	background-color: #101720;
-    
-    overflow: hidden;
-}
-
-/* Foto de perfil */
-#prof-pic {
-	width: 216px;
-	height: 216px;
-    
-    image-rendering: pixelated;
-}
-
-#prof-change {
-    position: absolute;
-    
-    background: none;
-    border: none;
-    
-    margin-left: 150px;
-    margin-top: 150px;
-}
-
-#prof-change:hover > #prof-change-svg {
-    filter: brightness(80%);
+	font-size: 32pt;
 }
 
 form {
@@ -64,6 +35,7 @@ form {
 
 	margin-block: 1em;
 	margin-inline: auto;
+	margin-top: 100px;
 
 	width: clamp(20em, 60vw, 1000px);
 }
@@ -158,4 +130,10 @@ form {
 	width: 24px;
 	margin-top: 14px;
 	margin-left: -36px;
+}
+
+#forgor {
+	display: block;
+	margin-left: 24px;
+	text-align: center;
 }

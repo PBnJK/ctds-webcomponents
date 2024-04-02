@@ -8,8 +8,9 @@
  */
 function trocarPerfil() {
     const INPUT = document.getElementById('file-input');
+	INPUT.setAttribute('accept', 'image/*');
 
-    INPUT.onchange = e => { 
+    INPUT.onchange = _ => { 
         const IMG = new Image();
         
         IMG.onload = function() {
@@ -20,6 +21,11 @@ function trocarPerfil() {
             }
 
         }
+		
+		if( !INPUT.files[0].type.includes('image/') ) {
+			alert("Por favor, selecione uma imagem!");
+			return;
+		}
 
         IMG.src = URL.createObjectURL(INPUT.files[0]);
         document.getElementById('prof-pic').src = IMG.src;

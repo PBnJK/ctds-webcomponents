@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/global.css" rel="stylesheet">
+	<link href="css/logar.css"  rel="stylesheet">
+
+	<!-- Coisas de fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	
+	<!-- JS -->
+	<script src="scripts/logar.js"></script>
+
+	<title>WebComponents</title>
+</head>
+<body>
+	<header>
+		<div id="header-bg">            
+			<h1 id="ola">Bem-vindo(a) de volta!</h1>
+		</div>
+	</header>
+
+	<form>
+		<div class="input-divs">
+			<label for="inp-b-name" class="input-label">Nome de usuário</label>
+			<input type="text"
+				   id="inp-b-name" class="input-generic" 
+				   placeholder="Nome" required/>
+		</div>
+
+		<div class="input-divs">
+			<label for="inp-b-senha" class="input-label">Senha</label>
+			<div style="display: inline-block;">
+				<input type="password"
+				   	   id="inp-b-senha" class="input-generic"
+				       placeholder="Senha" required
+					   autocomplete="current-password"/>
+				<img src="assets/eye-solid.svg" id="eye-pwd-1" class="pwd-eye">
+			</div>
+		</div>
+
+		<div class="input-divs">
+			<input type="submit" id="inp-confirmar" value="Confirmar">
+		</div>
+
+	</form>
+	
+    <a href="https://www.pudim.com.br/" id="forgor">Esqueceu sua senha?</a>
+</body>
+</html>
