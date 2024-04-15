@@ -42,7 +42,6 @@ form {
 
 .input-divs {
 	margin: 0 auto;
-
 	width: 300px;
 }
 
@@ -136,4 +135,12 @@ form {
 	display: block;
 	margin-left: 24px;
 	text-align: center;
+
+	color: #bbbbbb;
+
+	font-family: 'Inria Sans';
+}
+
+#forgor:visited {
+	color: #bbbbbb;
 }
