@@ -26,9 +26,17 @@ header {
 	text-align: center;
 
 	background-color: #101720;
-	border-radius: 2em;
-	width: 50%;
+	border-radius: 0;
+	width: 100%;
 	height: 50px;
+}
+
+@media (min-width: 600px) {
+	#tit-fundo2 {
+		border-radius: 2em;
+
+		width: 600px;
+	}
 }
 
 /* Texto do header*/
@@ -44,7 +52,11 @@ header {
 
 /* Texto principal */
 #tagline {
-    margin-top: 5%;
+    margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 580px;
     
     color: white;
     
@@ -68,8 +80,10 @@ header {
     
     align-items: center;
     justify-content: center;
-    
-    height: 50%;
+}
+
+#account-div {
+	position: relative;
 }
 
 #btn-criar {
@@ -115,7 +129,7 @@ header {
     font-family: 'Inria Sans';
     font-size: 22pt;
     
-    width: 25%;
+    width: 12em;
     height: 56px;
     
     border-radius: 2em;
@@ -130,10 +144,10 @@ header {
 #exclam {
     position: absolute;
     
-    width: 2%;
+    width: 32px;
     
-    left: 890px;
-    top: 310px;
+    left: 470px;
+    top: -10px;
     
     transform: rotate(15deg);
 }

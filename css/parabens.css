@@ -1,0 +1,82 @@
+#cabecalho {
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+
+	background-color: #101720;
+	height: 80px;
+}
+
+.btn-nav {
+	background-color: #d9d0d9;
+
+	height: 56px;
+	width: 192px;
+
+	border-radius: 12px;
+	border-style: none;
+
+	font-family: 'Inria Sans';
+	font-size: 22px;
+	color: #393039;
+}
+
+h1, h2, p {
+	text-align: center;
+
+	color: #d9d0d9;
+	font-family: 'Inria Sans';
+}
+
+h1 {
+	margin: 48px 0;
+}
+
+h2 {
+	margin-bottom: 2px;
+}
+
+p {
+	margin-top: 2px;
+	margin-bottom: 40px;
+	font-size: 1.25em;
+}
+
+#mensagem {
+	margin: 0 auto;
+	text-align: center;
+
+	background-color: #393039;
+	width: 900px;
+	height: 200px;
+	border-radius: 16px;
+
+	padding-top: 20px;
+}
+
+#acessar {
+	color: #d9d0d9;
+	background-color: #595059;
+
+	font-family: 'Inria Sans';
+	font-size: 22px;
+
+	border-style: none;
+	border-radius: 8px;
+
+	width: 333px;
+	height: 32px;
+
+	margin-right: 24px;
+}
+
+#continuar {
+	border-radius: 8px;
+
+	width: 333px;
+	height: 32px;
+
+	margin-left: 24px;
+}
