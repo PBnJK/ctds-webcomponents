@@ -57,20 +57,17 @@ header {
 }
 
 form {
-	flex-flow: column nowrap;
-	place-items: center;
-
-	gap: 2em;
-
-	margin-block: 1em;
 	margin-inline: auto;
 
-	width: clamp(20em, 60vw, 1000px);
+	margin-left: auto;
+	margin-right: auto;
+
+	width: clamp(16em, 60vw, 1000px);
 }
 
 .input-divs {
 	margin: 0 auto;
-
+	align-items: center;
 	width: 300px;
 }
 
@@ -84,6 +81,7 @@ form {
 	color: white;
 
 	margin-top: 16px;
+	width: 200px;
 }
 
 /* Caixas de input */
@@ -101,7 +99,7 @@ form {
 	margin-top: 8px;
 
 	height: 30px;
-	width: 264px;
+	width: 200px;
 
     padding-left: 8px;
 	padding-right: 44px;
@@ -142,9 +140,27 @@ form {
 	height: 50px;
 
 	margin-top: 30px;
-	margin-left: 60px;
+	margin-left: 30px;
 
 	border-radius: 16px;
+}
+
+@media (min-width: 350px) {
+	.input-label {
+		width: 264px;
+	}
+
+	.input-generic {
+		width: 264px;
+	}
+
+	form {
+		width: clamp(20em, 60vw, 1000px);
+	}
+
+	#inp-confirmar {
+		margin-left: 60px;
+	}
 }
 
 #inp-confirmar:hover {
