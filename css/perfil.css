@@ -1,7 +1,137 @@
-#profile-left {
+body {
+	display: flex;
+}
 
+#profile-left {
+	background-color: #051015;
+	height: 100vh;
+	width: 300px;
+
+	text-align: center;
 }
 
 #profile-right {
-	
+	height: 100vh;
+	flex-grow: 1;
+}
+
+#guia {
+	font-family: 'Inria Sans';
+	font-size: 3rem;
+	color: white;
+
+	margin-bottom: 24px;
+}
+
+#prof-pic {
+	width: calc(100% - 64px);
+}
+
+#botoes {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 24px;
+
+	align-items: center;
+	gap: 24px;
+}
+
+.botao {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	gap: 32px;
+
+	width: calc(100% - 64px);
+	height: 48px;
+
+	border: none;
+	border-radius: 16px;
+
+	background-color: #d9d0d9;
+	color: #1e1e1e;
+
+	font-family: 'Inria Sans';
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.botao:hover {
+	background-color: #a9a0a9;
+}
+
+.inline-img {
+	width: 24px;
+}
+
+#data {
+	margin-top: 64px;
+	margin-bottom: 64px;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr) 2fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+
+	height: 100%;
+}
+
+.input-divs {
+	width: 300px;
+}
+
+/* Labels das caixas de input */
+.input-label {
+	display: block;
+
+	font-family: 'Inria Sans';
+	font-size: 12pt;
+
+	color: white;
+
+	margin-top: 16px;
+	width: 300px;
+}
+
+/* Caixas de input */
+.input-generic {
+	display: inline-block;
+
+	font-family: 'Inria Sans';
+	font-size: 14pt;
+
+	background-color: #d0d0d9;
+
+	border-style: none;
+	border-radius: 8px;
+
+	margin-top: 8px;
+
+	height: 30px;
+	width: 300px;
+
+    padding-left: 8px;
+	padding-right: 8px;
+}
+
+#idiv-1 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+#idiv-2 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+
+#idiv-3 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+
+#idiv-4 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+
+#idiv-5 {
+	grid-area: 3 / 1 / 4 / 3;
 }
