@@ -131,6 +131,31 @@ header {
     border-style: none;
 }
 
+/* Media Query -> "Pergunta de Mídia"
+ *
+ * @media (min-width: 300px) {
+ * 
+ * }
+ *
+ * é igual à:
+ *
+ * @media (pelo menos 300px de largura) {
+ *
+ * }
+ *
+ * -----
+ *
+ * @media (max-width: 300px) {
+ * 
+ * }
+ *
+ * é igual à:
+ *
+ * @media (até 300px de largura) {
+ *
+ * }
+ *
+ */
 @media (min-width: 300px) {
 	#tit-fundo2 {
 		height: 50px;
