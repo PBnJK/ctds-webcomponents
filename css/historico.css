@@ -1,0 +1,82 @@
+h1 {
+	font-family: 'Inria Sans';
+	color: white;
+}
+
+p {
+	font-family: 'Inria Sans';
+	color: #AAAAAA;
+}
+
+#area {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#historico {
+	background-color: #353035;
+}
+
+#historico-items {
+	height: 320px;
+}
+
+.item {
+	display: flex;
+
+	padding: 8px 16px;
+	border-bottom: 4px solid;
+
+	background-color: #292029;
+	border-color: #251A25;
+
+	align-items: center;
+
+	height: 64px;
+}
+
+.item img {
+	width: 96px;
+	
+	border-radius: 16px;
+}
+
+.item p {
+	font-family: 'Inria Sans';
+	color: white;
+
+	margin-left: 16px;
+}
+
+#search {
+	padding-left: 40px;
+	background-color: #353035;
+}
+
+#search img {
+	width: 48px;
+	margin-right: 24px;
+}
+
+#apagar {
+	background-color: #292029;
+	height: 64px;
+}
+
+#apagar button {
+	background-color: #F22A2A;
+
+	font-family: 'Inria Sans';
+	font-size: 1.25em;
+	color: white;
+
+	border-style: none;
+	border-radius: 12px;
+
+	width: 128px;
+	height: 48px;
+
+	margin-left: 760px;
+	margin-top: 8px;
+	margin-right: 16px;
+}

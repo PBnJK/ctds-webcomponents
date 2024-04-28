@@ -4,3 +4,62 @@ html, body {
 	min-height: 100%;
 	margin: 0;
 }
+
+#cabecalho {
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+
+	background-color: #101720;
+	height: 80px;
+}
+
+.btn-nav {
+	background-color: #d9d0d9;
+
+	height: 56px;
+	line-height: 56px;
+
+	width: 192px;
+
+	border-radius: 12px;
+	border-style: none;
+
+	font-family: 'Inria Sans';
+	font-size: 22px;
+	color: #393039;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn-nav:hover {
+	color: #292029;
+	background-color: #c9c0c9;
+}
+
+.btn-nav b {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.img-nav {
+	flex-grow: 1;
+}
+
+.im {
+	max-width: 64px; 
+}
+
+#h-logo {
+	margin-left: 64px;
+	margin-right: auto;
+}
+
+#h-prof {
+	text-align: right;
+	margin-right: 64px;
+}

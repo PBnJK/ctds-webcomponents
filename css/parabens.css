@@ -1,28 +1,3 @@
-#cabecalho {
-	display: flex;
-	
-	align-items: center;
-	justify-content: center;
-	gap: 16px;
-
-	background-color: #101720;
-	height: 80px;
-}
-
-.btn-nav {
-	background-color: #d9d0d9;
-
-	height: 56px;
-	width: 192px;
-
-	border-radius: 12px;
-	border-style: none;
-
-	font-family: 'Inria Sans';
-	font-size: 22px;
-	color: #393039;
-}
-
 h1, h2, p {
 	text-align: center;
 
@@ -76,6 +51,8 @@ p {
 	border-radius: 8px;
 
 	width: 300px;
+
+	line-height: 32px;
 	height: 32px;
 
 	margin-left: 0px;

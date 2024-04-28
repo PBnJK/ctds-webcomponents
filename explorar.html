@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/explorar.css"  rel="stylesheet">
+
+	<!-- Coisas de fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+	<script src="scripts/explorar.js" defer></script>
+
+	<title>WebComponents</title>
+</head>
+<body>
+	<header id="cabecalho">
+		<a href="index.html" class="img-nav" id="h-logo"><img src="assets/logo.png" class="im"></a>
+		<a href="explorar.html" class="btn-nav"><b>Explorar</b></a>
+		<a href="carrinho.html" class="btn-nav"><b>Seus itens</b></a>
+		<a href="perfil.html" class="img-nav" id="h-prof"><img src="assets/ppic.svg" class="im"></a>
+	</header>
+
+	<div id="search">
+		<input type="text" placeholder="Ex. &quot;Barra de pesquisa&quot;">
+		<img src="assets/magnifying-glass.svg">
+	</div>
+
+	<div id="main">
+		<h1>Populares</h1>
+
+		<div id="items">
+			<div class="item">
+				<img id="leftmost" src="assets/search-bar-thumb.png">
+				<div class="desc">
+					<p class="item-title"><b>Barra de pesquisa</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>Andre12</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="assets/easy-forms-thumb.png">
+				<div class="desc">
+					<p class="item-title"><b>easy-form</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>kinglsey</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<img id="rightmost" src="assets/bg-pack-thumb.png">
+				<div class="desc">
+					<p class="item-title"><b>Pack de backgrounds</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>mechaque</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="fake-img"></div>
+				<div class="desc">
+					<p class="item-title"><b>Outro</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>pessoareal021412</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="fake-img"></div>
+				<div class="desc">
+					<p class="item-title"><b>Item</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>pessoareal894765</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="fake-img"></div>
+				<div class="desc">
+					<p class="item-title"><b>Aí...</b></p>
+					<div class="author-rank-combo">
+						<p class="item-author">por: <em>pessoareal0124124</em></p>
+						<div class="item-ranking">
+							<img src="assets/star.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

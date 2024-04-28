@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/historico.css"  rel="stylesheet">
+
+	<!-- Coisas de fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+	<title>WebComponents</title>
+</head>
+<body>
+	<header id="cabecalho">
+		<a href="index.html" class="img-nav" id="h-logo"><img src="assets/logo.png" class="im"></a>
+		<a href="explorar.html" class="btn-nav"><b>Explorar</b></a>
+		<a href="carrinho.html" class="btn-nav"><b>Seus itens</b></a>
+		<a href="perfil.html" class="img-nav" id="h-prof"><img src="assets/ppic.svg" class="im"></a>
+	</header>
+
+	<div id="area">
+		<h1>Histórico</h1>
+		<p><i>Mostrando pesquisas dos últimos: 7 dias</i></p>
+
+		<div id="historico">
+			<div id="historico-items">
+				<div class="item">
+					<img src="assets/bg-pack-thumb.png">
+					<p>Pack de backgrounds</p>
+				</div>
+
+				<div class="item">
+					<img src="assets/easy-forms-thumb.png">
+					<p>easy-forms</p>
+				</div>
+
+				<div class="item" id="search">
+					<img src="assets/magnifying-glass.svg">
+					<p>"componente de formulario"</p>
+				</div>
+			</div>
+			
+			<div id="apagar">
+				<button>Apagar</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
