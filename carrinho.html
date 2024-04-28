@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/carrinho.css"  rel="stylesheet">
+
+	<!-- Coisas de fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+	<script src="scripts/explorar.js" defer></script>
+
+	<title>WebComponents</title>
+</head>
+<body>
+	<header id="cabecalho">
+		<a href="index.html" class="img-nav" id="h-logo"><img src="assets/logo.png" class="im"></a>
+		<a href="explorar.html" class="btn-nav"><b>Explorar</b></a>
+		<a href="carrinho.html" class="btn-nav"><b>Seus itens</b></a>
+		<a href="perfil.html" class="img-nav" id="h-prof"><img src="assets/ppic.svg" class="im"></a>
+	</header>
+
+	<div id="main">
+		<h1>Seu carrinho</h1>
+
+		<div id="carrinho">
+			<div id="items">
+				<div class="item">
+					<img src="assets/bg-pack-thumb.png">
+					<p>Pack de backgrounds</p>
+					<p class="preco">R$2,99</p>
+				</div>
+
+				<div class="item">
+					<img src="assets/easy-forms-thumb.png">
+					<p>easy-forms</p>
+					<p class="preco">R$2,99</p>
+				</div>
+			</div>
+
+			<div id="opcoes">
+				<p>TOTAL: R$5,98</p>
+				<a href="pagar.html">Checkout</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

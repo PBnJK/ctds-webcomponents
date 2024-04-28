@@ -135,3 +135,8 @@ p {
 	width: 20px;
 	margin-bottom: -4px;
 }
+
+.item-preco {
+	margin: 4px 0 0 auto;
+	width: 48px;
+}

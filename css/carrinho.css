@@ -8,21 +8,23 @@ p {
 	color: #AAAAAA;
 }
 
-#area {
+#main {
 	width: 900px;
 	margin: 0 auto;
 }
 
-#historico {
+#carrinho {
 	background-color: #353035;
 }
 
-#historico-items {
+#items {
 	height: 320px;
 }
 
 .item {
-	display: flex;
+	display: grid;
+
+	grid-template-columns: 1fr 2fr 6fr;
 
 	padding: 8px 16px;
 	border-bottom: 4px solid;
@@ -37,6 +39,7 @@ p {
 
 .item img {
 	width: 96px;
+	
 	border-radius: 16px;
 }
 
@@ -51,35 +54,44 @@ p {
 	margin-left: 16px;
 }
 
-#search {
-	padding-left: 40px;
-	background-color: #353035;
+.preco {
+	text-align: end;
 }
 
-#search img {
-	width: 48px;
-	margin-right: 24px;
-}
+#opcoes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-#apagar {
 	background-color: #292029;
 	height: 64px;
+
+	padding: 0px 16px;
 }
 
-#apagar button {
-	background-color: #F22A2A;
+#opcoes p {
+	display: inline;
 
-	font-family: 'Inria Sans';
-	font-size: 1.25em;
-	color: white;
+	font-size: 1.5em;
+}
 
-	border-style: none;
+#opcoes a {
+	display: inline-block;
+
+	width: 256px;
+	height: 32px;
+	line-height: 32px;
+
 	border-radius: 12px;
+	border-style: none;
+	
+	font-family: 'Inria Sans';
+	font-size: 22px;
 
-	width: 128px;
-	height: 48px;
+	text-align: center;
+	text-decoration: none;
 
-	margin-left: 760px;
-	margin-top: 8px;
-	margin-right: 16px;
+	background-color: #d9d0d9;
+	color: #393039;
 }
+

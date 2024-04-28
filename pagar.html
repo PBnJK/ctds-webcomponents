@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/pagar.css"  rel="stylesheet">
+
+	<!-- Coisas de fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+	<title>WebComponents</title>
+</head>
+<body>
+	<header id="cabecalho">
+		<a href="index.html" class="img-nav" id="h-logo"><img src="assets/logo.png" class="im"></a>
+		<a href="explorar.html" class="btn-nav"><b>Explorar</b></a>
+		<a href="carrinho.html" class="btn-nav"><b>Seus itens</b></a>
+		<a href="perfil.html" class="img-nav" id="h-prof"><img src="assets/ppic.svg" class="im"></a>
+	</header>
+
+	<div id="main">
+		<h1>Checkout</h1>
+
+		<div id="checkout">
+			<div id="metodos">
+				<p class="guide">1. Escolha o seu método de pagamento</>
+				<div id="opcoes">
+					<button class="metodo">
+						<img src="assets/cil-credit-card.svg">
+						Cartão
+					</button>
+
+					<button class="metodo">
+						<img src="assets/pix.svg">
+						Pix
+					</button>
+
+					<button class="metodo">
+						Adicionar...
+					</button>
+				</div>
+			</div>
+
+			<div id="detalhes">
+				<p class="guide">2. Preencha os detalhes</>
+				<form action="parabens.html">
+					<div class="input-divs">
+						<label for="inp-b-name" class="input-label">Nome no cartão</label>
+						<input type="text"
+							   id="inp-b-name" class="input-generic" 
+							   placeholder="João Exemplo da Silva" required/>
+					</div>
+
+					<div class="input-divs">
+						<label for="inp-b-num" class="input-label">Número do cartão</label>
+						<input type="tel" pattern="\d{4} \d{4} \d{4} \d{4}"
+							   id="inp-b-num" class="input-generic" 
+							   placeholder="0123 4567 8901 2345" required/>
+					</div>
+
+					<div class="input-divs">
+						<label for="inp-b-date" class="input-label">Data de vencimento</label>
+						<input type="text" pattern="\d{2}\/\d{2}"
+							   id="inp-b-date" class="input-generic" 
+							   placeholder="01/99" required/>
+					</div>
+
+					<div class="input-divs">
+						<label for="inp-b-cvv" class="input-label">CVV</label>
+						<input type="tel" pattern="\d{3}"
+							   id="inp-b-cvv" class="input-generic" 
+							   placeholder="123" required/>
+					</div>
+
+					<input type="submit" id="inp-confirmar"
+					class="input-generic" value="Finalizar pagamento"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+

@@ -47,6 +47,13 @@ p {
 	margin-right: 0px;
 }
 
+#acessar:hover {
+	background-color: #494049;
+	color: #c9c0c9;
+
+	cursor: pointer;
+}
+
 #continuar {
 	border-radius: 8px;
 
@@ -56,6 +63,11 @@ p {
 	height: 32px;
 
 	margin-left: 0px;
+}
+
+#continuar:hover {
+	background-color: #c9c0c9;
+	cursor: pointer;
 }
 
 @media (min-width: 900px) {
