@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
-	<script src="scripts/explorar.js" defer></script>
+	<script src="scripts/carrinho.js" defer></script>
 
 	<title>WebComponents</title>
 </head>
@@ -29,14 +29,16 @@
 
 		<div id="carrinho">
 			<div id="items">
-				<div class="item">
-					<img src="assets/bg-pack-thumb.png">
+				<div class="item" id="i1">
+					<button class="remover">X</button>
+					<img class="item-img" src="assets/bg-pack-thumb.png">
 					<p>Pack de backgrounds</p>
 					<p class="preco">R$2,99</p>
 				</div>
 
-				<div class="item">
-					<img src="assets/easy-forms-thumb.png">
+				<div class="item" id="i2">
+					<button class="remover">X</button>
+					<img class="item-img" src="assets/easy-forms-thumb.png">
 					<p>easy-forms</p>
 					<p class="preco">R$2,99</p>
 				</div>

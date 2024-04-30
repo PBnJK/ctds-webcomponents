@@ -24,7 +24,7 @@ p {
 .item {
 	display: grid;
 
-	grid-template-columns: 1fr 2fr 6fr;
+	grid-template-columns: 1fr 1fr 2fr 6fr;
 
 	padding: 8px 16px;
 	border-bottom: 4px solid;
@@ -35,6 +35,24 @@ p {
 	align-items: center;
 
 	height: 64px;
+}
+
+.item button {
+	background-color: #F22A2A;
+
+	font-family: 'Inria Sans';
+	font-size: 1.25em;
+	color: white;
+
+	border-style: none;
+	border-radius: 16px;
+
+	width: 64px;
+}
+
+.item button:hover {
+	cursor: pointer;
+	background-color: #E21A1A;
 }
 
 .item img {
